@@ -1,0 +1,2832 @@
+p,h1,h2,h3,h4,h5,h6,a,span,label{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none !important;
+}
+.font-weight-300{
+    font-weight: 300;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-weight-500{
+    font-weight: 500;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.padd-100{
+    padding: 100px 0px;
+}
+.padd-50{
+    padding: 50px;
+}
+input:focus,
+button:focus,
+select:focus{
+    outline: none;
+    border: none;
+}
+.slick-next {
+    top: -32px !important;
+    right: -12px !important;
+}
+.slick-prev{
+    top: -32px !important;
+    left: 195px !important;
+}
+.slick-next:before{
+    content: "\f054" !important;
+    font-family: 'FontAwesome' !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+.slick-prev:before{
+    content: "\f053" !important;
+    font-family: 'FontAwesome' !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+.required{
+    color: #FF0202;
+    font-weight: 600;
+}
+/******************* Header - CSS ****************/
+#header{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    top: 10%;
+    left: 4.8%;
+    z-index: 9999;
+    padding: 0px 65px;
+}
+#header .navbar-collapse{
+    justify-content:flex-end;
+}
+#header ul{
+    justify-content: center;
+    align-items: center;
+}
+#header ul.navbar-nav.mt-2.mt-lg-0 li {
+    padding-left: 15px;
+}
+#header ul.navbar-nav.mt-2.mt-lg-0 li a{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    padding: 5px 10px;
+}
+#header .navbar-collapse .loginLink{
+    border: 1px solid #FF0202;
+    padding: 8px 13px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+#header .navbar-collapse .joinNow{
+    background: #FF0202;
+    border: 1px solid #FF0202;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 20px;
+}
+#header .navbar-collapse .login{
+    background: #fff;
+    border: 1px solid #FF0202;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #000;
+    padding: 5px 20px;
+}
+#header .navbar-collapse .selectDiv{
+    position: relative;
+}
+#header .navbar-collapse .selectDiv i{
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    color: #fff;
+}
+#header .navbar-collapse .language{
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-weight: 500;
+}
+/************** Main - Banner  - CSS ****************/
+#mainBanner{
+    height: 150px;
+    background-color: #2C2887;
+    position: relative;
+}
+#mainBanner .registerDiv{
+    background-image: url("../img/Group\ 42.png");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    position: absolute;
+    bottom: -110px;
+    left: 4.8%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+#mainBanner .registerDiv h2{
+    padding-top:30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+#mainBanner .registerDiv p{
+    font-size: 22px;
+    margin: 30px 0px;
+}
+
+#homeBanner .lookingFor,
+#contactDiv .lookingFor,
+#postJobDiv .lookingFor {
+    background: #FCFCFC;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    width: 255px;
+    height: 407px;
+}
+#homeBanner .lookingFor p.header,
+#contactDiv .lookingFor p.header,
+#postJobDiv .lookingFor p.header {
+    background: #e62e2d;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#homeBanner .rightDiv .sliderDiv,
+#contactDiv .sliderDiv {
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+}
+#homeBanner .rightDiv .sliderDiv .userDetail,
+#contactDiv .sliderDiv .userDetail {
+    margin: 10px 0px;
+}
+#homeBanner .rightDiv .sliderDiv .userDetail h5,
+#contactDiv .sliderDiv .userDetail h5 {
+    font-size: 16px;
+    margin: 0px;
+    color: #212529;
+    font-weight: 600;
+}
+#homeBanner .rightDiv .sliderDiv .userDetail p,
+#contactDiv .sliderDiv .userDetail p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #212529;
+}
+#homeBanner .rightDiv .sliderDiv .reviewDiv p,
+#contactDiv .sliderDiv .reviewDiv p {
+    font-size: 14px;
+    margin: 0;
+    color: #8A8A8A;
+    align-items: center;
+    display: flex;
+}
+#homeBanner .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-right: 7px;
+}
+#homeBanner .leftBannerContent{
+    padding: 70px 0px;
+}
+/***************** Create - Account - CSS ****************/
+#createAccount{
+    margin: 250px 0px 100px;
+}
+#createAccount .formDiv{
+    border: 2px solid #D0CECE;
+    padding: 50px;
+    position: relative;
+}
+#createAccount .formDiv .inputDiv{
+    margin: 10px 0px 20px;
+}
+#createAccount .formDiv .inputDiv label{
+    font-weight: 600;
+}
+#createAccount .formDiv .inputDiv label span{
+    color: #FF0202;
+}
+#createAccount .formDiv .inputDiv input,
+#createAccount .formDiv .inputDiv select,
+#language table td select,
+#specialization table td select,
+#software table td select{
+    background: #FCFCFC;
+    border: 0.5px solid #70707061;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 15px;
+    width: 100%;
+}
+#createAccount .formDiv .checkBoxDiv{
+    display: flex;
+    width: 100%;
+    max-width: 55%;
+}
+#createAccount .formDiv .checkBoxDiv label{
+    margin-left: 10px;
+}
+#createAccount .formDiv .checkBoxDiv input,
+.radioBtnDiv input{
+    margin-top: 5px;
+}
+#createAccount .formDiv .rebootDiv{
+    margin: 20px 0px 30px;
+}
+.commonBtn{
+    background: #0E0D6B;
+    border-radius: 10px;
+    padding: 8px 32px;
+    color: #fff;
+    border: none;
+}
+.softcommonBtn{
+    background: #ff0202;
+    border-radius: 10px;
+    padding: 5px 32px;
+    color: #fff;
+    border: none;
+}
+#createAccount .formDiv h2{
+    position: absolute;
+    top: -21px;
+    background: #fff;
+    padding: 0px 20px;
+}
+/**************** Footer - CSS *******************/
+#footer{
+    border-top: 6px solid #0E0D6B;
+    padding: 80px 0px 0px;
+    margin: 0;
+}
+#footer .footerBox img{
+    margin-bottom: 30px;
+}
+#footer .footerBox h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+#footer .footerBox ul li{
+    margin-bottom: 3px;
+}
+#footer .footerBox ul li a{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+#footer .footerBox span {
+    margin-left: 10px;
+}
+.footerBottom{
+    background-color: #0E0D6B;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.footerBottom p{
+    margin: 0px;
+    font-weight: 500;
+}
+/* *************************home banner css *************/
+
+#homeBanner{
+    background: #2c2887;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    display: flex;
+    align-items: right;
+    color: #fff;
+    flex-direction: column;
+    padding: 0px 85px 0px;
+}
+
+/* ************************* Find Job css *************/
+#findJobSection h3{
+    color: rgba(44, 40, 135, 1);
+}
+#findJobSection .formDiv{
+    width: 100%;
+}
+#findJobSection .formDiv .commonBtn{
+    float: right;
+}
+/* ************************* Service css *************/
+#Services{
+    padding: 0px 0px;
+}
+/* ************************* Resume css *************/
+#resumeContent .multiBtn  button,
+#files .multiBtn  button{
+    margin-top: 50px;
+}
+/* ************************* Language css *************/
+#language table,
+#specialization table,
+#software table{
+    width: 100%;
+}
+#language table th,
+#specialization table th,
+#software table th{
+    padding: 15px;
+}
+#language table td select,
+#specialization table td select,
+#software table td select{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#files h2{
+    font-size: 18px;
+    margin-top: 30px;
+}
+#contactDiv  .googleAdd{
+    height: 500px !important;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebebeb;
+}
+#contactDiv table th,
+#contactDiv table td{
+    font-size: 14px !important;
+}
+#contactDiv table .checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionp {
+    margin: 10px 0px;
+}
+.sectionp p{
+    float: right;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.orderdisplaying{
+    margin: 30px 0px;
+}
+
+.orderdisplaying p{
+    font-size: 14px !important;
+}
+.downloadFile{
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.downloadFile p{
+    font-weight: 600;
+}
+.downloadFile button{
+    background: #ff0202 !important; 
+   
+}
+/* ************************* Pro Member css *************/
+#proMemberInfo,
+#agencyInfo,
+#freelancerSection,
+#agencySection,
+#email-verification{
+    padding: 100px 0px;
+}
+#proMemberInfo ul{
+    padding: 0px 30px;
+    list-style: disc;
+}
+#proMemberInfo ul li{
+    padding: 10px;
+    font-size: 18px;
+}
+#proMemberInfo button{
+    float: right;
+}
+/* ************************* Agency Info css *************/
+#agencyInfo .infoDiv b {
+    margin-left: 16%;
+}
+.historyBox .titleDate{
+    display: flex;
+    justify-content: space-between;
+}
+.historyBox p{
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.historyBox .reviewBox i{
+    color: #0E0D6B;
+}
+.historyBox .titleReview p{
+    font-weight: 700;
+}
+.historyBox{
+    border-bottom: 2px solid #D0CECE;
+    padding-bottom: 20px;
+}
+
+.profileInfo img{
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+}
+#freelancerSection .commonDiv:nth-child(1) h3{
+    left: 105px;
+}
+.profileInfo{
+    text-align: center;
+}
+.profileInfo h4 i{
+    background: #ff0202;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 100%;
+    color: #fff;
+    position: absolute;
+}
+.profileInfo h4{
+    font-weight: 600;
+    position: relative;
+    margin: 30px 0px 10px;
+}
+.profileInfo .locationTime span{
+    margin-right: 0px;
+}
+.profileInfo .jobPosted{
+    margin: 20px 0px;
+}
+.profileInfo .jobPosted p {
+    margin: 0px;
+}
+.profileInfo .jobPosted p:nth-child(1){
+    font-size: 22px;
+    font-weight: 700;
+}
+#freelancerSection ul li,
+#agencySection ul li{
+    font-size: 18px;
+}
+svg path {
+    fill: red;
+}
+svg{
+    width: 15px;
+    height: 18px;
+}
+/* ************************* Email Verification css *************/
+.verificationBox{
+    text-align: center;
+}
+.verificationBox .iconBox{
+    font-size: 50px;
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    background: #0e0d6b;
+    border-radius: 100%;
+    color: #fff;
+}
+.verificationBox h4{
+    margin: 40px 0px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.verificationBox p{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+
+
+
+@media screen and (min-width: 1500px) {
+    #header .navbar-collapse {
+        justify-content: flex-end;
+    }
+    .banner .banner-content .inputfield {
+        background: #fff;
+        border-radius: 15px;
+        padding: 10px;
+        font-family: Montserrat;
+        display: flex;
+        width: 100%;
+        max-width: 85% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #voice-Over .commonDiv form .inputDiv{
+
+    }
+    #voice-Over .commonDiv form .inputDiv select{
+        padding: 5px 40px 5px 5px;
+    
+    }
+    #voice-Over .commonDiv .btn-primary{
+        background: #ff0202;
+        border: none;
+        color: #fff;
+    }
+  
+}
+@media screen and (min-width: 1200px) {
+    #voice-Over .commonDiv form .inputDiv{
+
+    }
+    #voice-Over .commonDiv form .inputDiv select{
+        padding: 5px 40px 5px 5px;
+    
+    }
+    #voice-Over .commonDiv .btn-primary{
+        background: #ff0202;
+        border: none;
+        color: #fff;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .banner .banner-content .inputfield{
+        max-width: 60% !important;
+    }
+    #header ul.navbar-nav.mt-2.mt-lg-0 li {
+        padding-left: 5px;
+    }
+    .navbar-light .navbar-brand img{
+        width: 150px;
+    }
+    #header ul.navbar-nav.mt-2.mt-lg-0 li a,
+    #header .navbar-collapse .language{
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    #findJobSection .multiDiv select {
+        background: #ECECEC;
+        border-radius: 10px;
+        margin-right: 20px;
+        padding: 2px 115px 2px 6px;
+    }
+    .servicesContent h2, .servicesContent h2 a{
+        font-size: 18px !important;
+    }
+    .servicesContent p{
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+    #Services .servicesIcon .servicesImg{
+        width: 100px;
+    }
+    .banner .banner-content .inputfield {
+        background: #fff;
+        border-radius: 15px;
+        padding: 10px;
+        font-family: Montserrat;
+        display: flex;
+        width: 100%;
+        max-width: 93% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .banner-content .language p span {
+        font-size: 13px !important;
+        font-family: Montserrat;
+        text-align: left;
+    }
+    #homeBanner .lookingFor, #contactDiv .lookingFor, #postJobDiv .lookingFor{
+        background: #FCFCFC !important;
+        box-shadow: 0px 0px 9px rgb(0 0 0 / 25%) !important;
+        border-radius: 10px !important;
+        padding-bottom: 15px !important;
+        margin-bottom: 40px !important;
+        width: 210px !important;
+        height: 365px !important;
+    
+    }
+    #homeBanner .lookingFor {
+        margin: auto;
+    }
+    
+    
+  }
+  @media screen and (max-width: 992px) {
+    #contactDiv form .inputDiv{
+        max-width: 100% !important;
+    }
+    .servicesContent h2, .servicesContent h2 a {
+        font-size: 14px !important;
+        padding: 10px 0px !important;
+    }
+    .banner .banner-content .inputfield{
+        max-width: 80% !important;
+    }
+    #header ul{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #findJobSection .multiDiv select {
+        background: #ECECEC !important;
+        border-radius: 10px !important;
+        margin-right: 9px !important;
+        padding: 2px 80px 2px 6px !important;
+    }
+    #homeBanner .lookingFor, 
+    #contactDiv .lookingFor,
+    #postJobDiv .lookingFor {
+        background: #FCFCFC !important;
+        box-shadow: 0px 0px 9px rgb(0 0 0 / 25%) !important;
+        border-radius: 10px !important;
+        width: 255px !important;
+        height: 380px !important;
+    }
+    #our-mission .left-div {
+        padding: 50px;
+    }
+    
+  }
+  
+@media screen and (max-width: 768px) {
+     #homeBanner .lookingFor{
+        margin: auto !important;
+    }
+    #profileDiv .tabDiv ul{
+        display: block;
+        overflow: scroll;
+        height: 150px;
+    }
+    #profileDiv .actionDiv ul li{
+        margin-left: 10px !important;
+        font-size: 14px;
+    }
+    #profileDiv .actionDiv ul li:after{
+        right: 10px !important;
+    }
+    .Services .heading{
+        text-align: center;
+    }
+    .mainpart2{
+        justify-content: center !important;
+    }
+    .banner .banner-content .inputfield {
+        max-width: 100% !important;
+    }
+    #homeBanner {
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: top right;
+        display: flex;
+        align-items: right;
+        color: #fff;
+        flex-direction: column;
+        padding-top: 15%;
+        padding: 0px 0px 50px;
+        background: rgba(44, 40, 135, 1);
+        height: auto;
+    }
+    .banner .banner-content{
+        justify-content: center;
+        text-align: center;
+    }
+    #findJobSection .multiDiv select {
+        background: #ECECEC !important;
+        border-radius: 10px !important;
+        margin-right: 9px !important;
+        padding: 2px 80px 2px 6px !important;
+    }
+    #resume #contactDiv,
+    #self-promotion #contactDiv,
+    #agency #contactDiv,
+    #service #contactDiv,
+    #voice-Over #contactDiv,
+    #specialization #contactDiv,
+    #software #contactDiv{
+        padding: 0px !important;
+    }
+    #our-mission .left-div,
+    #our-mission .right-div,
+    #comon-div .right-side {
+        width: 100%;
+        text-align: center;
+    }
+    #our-mission .left-div,
+    #our-mission .right-div,
+    #comon-div .right-side {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    .downloadFile{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .commonDiv h3{
+        top: -12px !important;
+        font-size: 18px;
+    }
+    #language table,
+    #specialization table,
+    #software table{
+        margin: 10px 0px;
+    }
+    #profileDiv .actionDiv ul{
+        justify-content: center !important;
+    }
+    #profileDiv .actionDiv ul li{
+        font-size: 10px !important;
+        margin-right: 30px !important;
+        margin-left: 0px !important;
+    }
+    #profileDiv .actionDiv ul li:after {
+        right: -10px !important;
+    }
+    .centerbannerbtn1{
+        padding-right: 10px !important;
+    }
+    #header{
+        top: 4%;
+    }
+    #findJobSection .multiDiv select {
+        background: #ECECEC !important;
+        border-radius: 10px !important;
+        margin-right: 8px !important;
+        padding: 2px 20px 2px 6px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    #findJobSection .multiDiv select {
+        background: #ECECEC !important;
+        border-radius: 10px !important;
+        margin-right: 20px !important;
+        padding: 2px 115px 2px 6px !important;
+        margin: 10px !important;
+        max-width: 100%;
+    }
+}
+
+.banner .banner-content h1{
+     color: #fff;
+     font-size: 35px;
+     font-family: Montserrat;
+     font-weight: 600;
+     line-height: 1.4em;
+     letter-spacing: -0.1px;
+ }
+ 
+ .banner .banner-content h2{
+     margin: 0px;
+     padding: 0;
+     text-align: start;
+     color: #fff;
+     font-size: 14px;
+     line-height: 25px;
+     padding-bottom: 15px;
+     font-weight: 400;
+ }
+ .banner .banner-content p{
+     margin:10px 0 0;
+     padding: 0;
+     font-family: Montserrat;
+     font-weight: 700;
+     color: #fff;
+     font-size: 1.5em;
+     text-transform: uppercase;
+ }
+ 
+ .banner .banner-content{
+     display: flex;
+     padding: 70px 0px;
+ }
+ 
+ .banner .banner-content .inputfield{
+     background: #fff;
+     border-radius: 15px;
+     padding: 10px;
+     font-family: Montserrat;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+ }
+ .banner .banner-content .inputfield input,
+ .banner .banner-content .inputfield select{
+     background-color: rgba(244, 244, 244, 1);
+     border-radius: 10px;
+ }
+ .inputfield .select{
+     margin-right:75px;
+     font-family: Montserrat;
+ }
+ 
+ .banner .banner-content .inputfield .Categories{
+     width: 125%;
+     height: 40px;
+     font-family: Montserrat;
+     border: none;
+ }
+ .banner .banner-content .inputfield .form-group{
+     margin: 0;
+     position: relative;
+     border: none;
+     font-family: Montserrat;
+     
+ }
+ .banner .banner-content .inputfield .form-control{
+     padding-left: 35px;
+     border: none;
+     font-family: Montserrat;
+ }
+ 
+ .banner .banner-content .inputfield .form-group i{
+     position: absolute;
+     top: 11px;
+     left: 12px;
+     color: rgba(147, 146, 146, 1);
+ }
+ 
+ .banner .banner-content .inputfield .input-bar-item .btn{
+     background: red;
+     border: none;
+     padding: 6px 20px;
+     border-radius: 10px;
+ 
+ }
+ 
+ .navbar-light  .navbar-toggler{
+     border: none;
+     color: #fff;
+     font-family: Montserrat;
+     border: 2px solid #f7f7f7;
+     border-radius: 0;
+     outline: none;
+ }
+ .banner .banner-content .inputfield .language{
+     text-align: left;
+     font-family: Montserrat;
+ }
+ .banner .banner-content .language p{
+     text-transform: uppercase;
+     font-family: Montserrat;
+ }
+ .banner .banner-content  .language p span{
+     font-size: 13px;
+     font-family: Montserrat;
+     padding: 5px;
+     text-align: left;
+ } 
+ .banner .banner-content .spantext{
+     background: #AB1137;
+     font-size: 10px !important;
+     font-family: Montserrat;
+     text-transform: none;
+     border-radius: 12px;
+     padding: 5px 10px !important;
+ }
+ #mainbanner .row {
+     font-family: Montserrat;
+     width: 100%;
+ }
+
+/***************** Profile - Banner - CSS **************/
+#profileBanner{
+    background-image: url("../img/profileBanner.png");
+    background-size: 100% 100%;
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+#profileBanner h3{
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#profileBanner p{
+    font-size: 20px;
+}
+#profileBanner.breadcrumb{
+   
+}
+/***************** Profile - CSS ********************/
+#profileDiv{
+    padding: 80px 0px;
+}
+#profileDiv .tabDiv{
+    border: 2px solid #D0CECE;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+#profileDiv .tabDiv ul li a.active{
+    background-color: #0E0D6B !important;
+    color: #fff;
+}
+#profileDiv .tabDiv ul li a{
+    font-weight: 600;
+    color: #000;
+}
+#profileDiv .tabDiv ul{
+    justify-content: center;
+}
+#profileDiv .actionDiv{
+    margin: 30px 0px;
+}
+#profileDiv .actionDiv ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#profileDiv .actionDiv ul li {
+    margin-left: 20px;
+    position: relative;
+}
+#profileDiv .actionDiv ul li.noAfter::after{
+    content: none;
+}
+#profileDiv .actionDiv ul li:after {
+    content: "";
+    height: 19px;
+    width: 1px;
+    background: #000;
+    position: absolute;
+    right: -11px;
+    top: 4px;
+}
+.commonDiv{
+    border: 2px solid #D0CECE;
+    padding: 50px;
+    position: relative;
+    border-radius: 8px;
+}
+.commonDiv h3{
+    position: absolute;
+    top: -21px;
+    background: #fff;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+.commonDiv span {
+    margin-right: 50px;
+    font-size: 14px;
+}
+.commonDiv .radioBtnDiv{
+    display: flex;
+    margin-top: 30px;
+}
+.commonDiv .radioBtnDiv .optionInfo{
+    margin-left: 20px;
+}
+.commonDiv .radioBtnDiv .optionInfo h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+#profileDiv form .commonBtn{
+    background-color: #FF0202;
+}
+#profile .notice,
+.notice{
+    background: #BBE3B6;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#profile p,
+#agencyInfo p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#profile h4,
+#agencyInfo h4{
+    margin: 30px 0px;
+}
+#profile .infoDiv span:nth-child(3),
+#agencyInfo .infoDiv span:nth-child(3){
+    float: right;
+}
+#profile .infoDiv span:nth-child(3) a,
+#agencyInfo .infoDiv span:nth-child(3) a{
+    color: rgba(44, 40, 135, 1);
+}
+#profile .infoDiv b {
+    margin-left: 16%;
+}
+
+#profile .inputDiv,
+#files .inputDiv,
+#agencyInfo .inputDiv{
+    display: flex;
+    margin-bottom: 20px;
+}
+#profile .inputDiv label,
+#files .inputDiv label,
+#agencyInfo .inputDiv label{
+    width: 25%;
+    font-size: 14px;
+    font-weight: 500;
+}
+#profile .inputDiv .inputSpan,
+#agencyInfo .inputDiv .inputSpan{
+    width: 75%;
+}
+#profile .inputDiv .inputSpan a,
+#agencyInfo .inputDiv .inputSpan a{
+    color: #000;
+}
+#profile .inputDiv ,
+#profile .inputDiv textarea,
+#profile .inputDiv select,
+#files .inputDiv input,
+#files .inputDiv textarea,
+#agencyInfo .inputDiv input,
+#agencyInfo .inputDiv select,
+#agencyInfo .inputDiv textarea{
+    width: 100%;
+    background: #F3F3F3;
+    border: 1.5px solid #0000002b;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 15px;
+    max-width: 90%;
+}
+#profile form{
+    margin: 40px 0px;
+    width: 100%;
+}
+#profile form .addProfile button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+#profile form ul {
+    list-style: disc;
+    padding: 0px 20px;
+}
+#profile form .warningText,
+.warning{
+    color: #FF0202;
+    font-weight: 600;
+}
+#profile form .warningText,
+.warningself{
+    
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.statushead {
+    background: #504e99;
+    width: 100%;
+    padding: 5px 15px;
+    justify-content: space-between;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.statuspara{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+#profile form .checkBox label,
+#profile form .checkBox input{
+    width: auto !important;
+}
+#profile form .checkBox label{
+    font-size: 15px;
+    font-weight: 600;
+}
+#profile form button{
+    float: right;
+    padding: 10px 45px;
+}
+/* Voice-Over */
+
+
+/******************* Find - A - Job ********************/
+#findJobSection .multiDiv select {
+    background: #ECECEC;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px 115px 10px 6px;
+    border: none;
+}
+#findJobSection form{
+    display: flex;
+    justify-content: space-between;
+}
+#findJobSection form button,
+#contactDiv form .multiBtn .commonBtn,
+postJobDiv .multiple-select a{
+    padding: 5px 32px;
+    background-color: #FF0202;
+}
+.multiBtn .agencycommonBtn{
+    padding: 7px 32px;
+    background-color: #0E0D6B;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+#findJobSection .multiCards{
+    margin: 50px 0px;
+}
+#findJobSection .multiCards .cardDiv{
+    position: relative;
+    background: #EBEBEB;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+#findJobSection .multiCards .cardDiv .priceInfo .detailDiv{
+    width: 100%;
+    max-width: 90%;
+
+}
+#findJobSection .multiCards .cardDiv .priceInfo .detailDiv span{
+    font-weight: 600;
+    margin-right: 30px;
+}
+#findJobSection .multiCards .cardDiv .priceInfo .detailDiv span:nth-child(2):after{
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    background-color: #000;
+    left: 22%;
+}
+#findJobSection .multiCards .cardDiv .priceInfo .detailDiv .price{
+    position: absolute;
+    right: 0;
+}
+
+#findJobSection .multiCards .cardDiv .locationDate .detial{
+    display: flex;
+}
+#findJobSection .multiCards .cardDiv .locationDate{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+#findJobSection .multiCards .cardDiv .locationDate i{
+    position: absolute;
+    right: 30%;
+    top: 10px;
+    font-size: 20px;
+    color: rgba(255, 2, 2, 1);
+}
+#findJobSection .multiCards .cardDiv .locationDate .detial p{
+    display: grid;
+    text-align: center;
+    margin-right: 30px;
+    color: #686868;
+    margin-bottom: 0px;
+}
+#findJobSection .multiCards .cardDiv p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#findJobSection .multiCards .cardDiv .locationDate button{
+    background-color: #54B848;
+    padding: 5px 45px;
+}
+#findJobSection .lookingFor,
+#contactDiv .lookingFor,
+#postJobDiv .lookingFor{
+    background: #FCFCFC;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+#findJobSection .googleAdd{
+    margin-bottom: 40px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebebeb;
+}
+
+#contactDiv .lookingFor,
+#contactDiv .lookingFor,
+#postJobDiv .lookingFor{
+    background: #FCFCFC;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+#findJobSection .lookingFor p.header,
+#contactDiv .lookingFor p.header,
+#postJobDiv .lookingFor p.header{
+    background: #2C2887;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#findJobSection .lookingFor ul,
+#contactDiv .lookingFor ul,
+#postJobDiv .lookingFor ul{
+    padding: 15px 15px 0px 15px;
+}
+#findJobSection .lookingFor ul li,
+#contactDiv .lookingFor ul li,
+#postJobDiv .lookingFor ul li {
+    padding: 5px;
+    border-bottom: 2px solid #9F9F9F;
+}
+#findJobSection .lookingFor ul li a,
+#contactDiv .lookingFor ul li a,
+#postJobDiv .lookingFor ul li a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+#findJobSection .rightDiv{
+    margin-top: 50px;
+}
+#findJobSection .rightDiv .sliderDiv,
+#contactDiv .sliderDiv{
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+#findJobSection .rightDiv .sliderDiv .userDetail,
+#contactDiv .sliderDiv .userDetail{
+    margin: 10px 0px;
+}
+#findJobSection .rightDiv .sliderDiv .userDetail h5,
+#contactDiv .sliderDiv .userDetail h5{
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 600;
+}
+#findJobSection .rightDiv .sliderDiv .userDetail p,
+#contactDiv .sliderDiv .userDetail p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#findJobSection .rightDiv .sliderDiv .reviewDiv p,
+#contactDiv .sliderDiv .reviewDiv p{
+    font-size: 14px;
+    margin: 0;
+    color: #8A8A8A;
+    align-items: center;
+    display: flex;
+}
+#findJobSection .rightDiv .sliderDiv .reviewDiv img,
+#contactDiv .sliderDiv .reviewDiv img{
+    margin-right: 10px;
+}
+
+/***************** Contact - CSS ******************/
+#contactDiv form .inputDiv{
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    margin-bottom: 30px;
+}
+#contactDiv form .inputDiv label{
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.checkboxh{
+    margin-left: 18%;
+}
+.checkbox{
+    padding-left: 18%;
+    height: 30px;
+   
+}
+#contactDiv form .inputDiv input,
+#contactDiv form .inputDiv select{
+    width: 75%;
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#contactDiv form .inputDiv .textArea{
+    width: 75%;
+}
+#contactDiv form .inputDiv .textArea textarea{
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+/* #contactDiv form .notice,
+#contactDiv form .multiBtn{
+    margin-left: 110px;
+} */
+/******************* Post - A - Job **********************/
+#postJobDiv .headingSection{
+    padding: 50px 30px 0px;
+}
+#postJobDiv .commonDiv{
+    padding: 0px;
+}
+#postJobDiv fieldset{
+    display: flex;
+    padding: 0px 50px 0px;
+}
+#postJobDiv .inputDiv{
+    padding: 30px 30px;
+    display: flex;
+}
+#postJobDiv .inputDiv input{
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0px 30px;
+    width: 300px;
+    margin-left: 30px;
+    
+}
+#postJobDiv .inputDiv label{
+    width: 145px;
+}
+#postJobDiv fieldset .radioBtnDiv{
+    margin-right: 50px;
+}
+#postJobDiv fieldset .radioBtnDiv label{
+    margin-left: 20px;
+}
+#postJobDiv .languageDiv{
+    background: #EFEFEF;
+    padding: 15px 50px;
+    margin-bottom: 30px;
+}
+#postJobDiv .multiple-select select{
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 5px 25px;
+}
+#postJobDiv .multiple-select span{
+    margin: auto;
+}
+#postJobDiv .multiple-select a:hover{
+    color: #fff;
+}
+#postJobDiv .textareaDiv,
+#postJobDiv .checkBoxDiv {
+    padding: 0px 50px 50px;
+}
+#postJobDiv .textareaDiv textarea{
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 15px;
+}
+#postJobDiv .checkBoxDiv input{
+    width: auto;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#postJobDiv .checkBoxDiv .checkBox{
+    display: flex;
+}
+#postJobDiv button{
+    display: block;
+    justify-content: center;
+    align-items: baseline;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #FF0202;
+}
+#postJobDiv p,
+#postJobDiv label{
+    font-size: 14px;
+    font-weight: 500;
+}
+#postJobDiv .radioDiv{
+    margin: 30px 0px;
+}
+#postJobDiv .radioDiv input{
+    width: 15px;
+    height: 15px;;
+}
+#postJobDiv .radioDiv label{
+    font-size: 15px;
+}
+#postJobDiv .setDateDiv{
+    display: none;
+}
+
+#jobDetail{
+    margin: 50px 0px;
+}
+#jobDetail .jobPosted{
+    text-align: center;
+    padding: 10px !important;
+}
+#jobDetail .jobPosted p{
+    font-size: 14px;
+}
+#jobDetail .jobPosted img{
+    width: 100px;
+    margin-bottom: 50px;
+}
+#jobDetail .jobPosted p b{
+    color: #0E0D6B;
+}
+#jobDetail .nav-pills .nav-link.active, 
+#jobDetail .nav-pills .show>.nav-link{
+    background-color: #0E0D6B !important;
+    color: #fff !important;
+}
+#jobDetail .nav-link{
+    color: #000 !important;
+}
+#jobDetail .tab-pane{
+    margin: 50px 0px;
+}
+/* *********************forum CSS***************** */
+
+.sectionBtn .createbtn{
+    background: #FF0202;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 6px 12px;
+    margin: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    
+}
+.fa-plus:before {
+    content: "\f067";
+    margin-right: 13px;
+}
+.sectionBtn {
+    padding-bottom: 40px;
+}
+.sectionBtn .askquestionBtn{
+    background: none;
+    /* float:right; */
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-weight: 600;
+    margin-left: 530px;
+    font-family: Montserrat;
+    border: 1px solid #FF0202;
+    box-sizing: border-box;
+}
+/* .table{
+    border: 2px solid #D0CECE;
+} */
+thead{   
+    background: #EBEBEB;
+    color: #000;
+    font-family: Montserrat;
+    /* padding: 20px; */
+}
+thead th .forummsg{
+  
+    border: none;
+    background: #0E0D6B;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    /* padding-top: 20px; */
+    text-align: center;
+}
+thead .forumNam{
+    padding-left: 100px;
+    font-family: Montserrat;
+}
+.tablemain{
+    background: #EEEEEE;
+    font-family: Montserrat;
+}
+tbody tr .tableData{
+    padding-top: 95px;
+    font-family: Montserrat;
+}
+
+.tableContent h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+#findJobSection .table tbody tr:nth-child(odd) {
+    background-color: rgba(238, 238, 238, 1);
+  }
+  #findJobSection .table tbody{
+    border: 1px solid #00000038;
+  }
+  
+.tableContent p{
+    font-size: 16px;
+}
+
+.tableImg{
+    padding-top: 60px;
+    font-family: Montserrat;
+}
+
+.spann p{
+    color: red;
+    padding-right: 11px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px; 
+}
+
+#forumBanner{
+    background-image: url("../img/profileBanner.png");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+#findJobSection table thead{
+    background: #0E0D6B;
+    color: #fff;
+}
+#findJobSection .forumtopButton{
+    display: flex;
+}
+#findJobSection .forumtopButton .topbtnchild1{
+    margin: 0;
+    padding: 0;
+}
+#findJobSection .forumtopButton .topbtnchild2{
+    margin-left: 59%;
+}
+#findJobSection .forumtopButton .commonBtn1{
+    background: #0E0D6B;
+    border-radius: 10px;
+    padding: 5px 35px;
+    color: #fff;
+    border: 1px solid #0E0D6B;
+}
+
+#findJobSection .forumtopButton .commonBtn2{
+    padding: 5px 35px;
+    border: 1px solid #FF0202;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #fff;
+    color: #000;
+   
+}
+.table thead th{
+    vertical-align: middle !important;
+}
+
+.messageDiv .inputDiv{
+    display: flex;
+}
+.messageDiv .inputDiv label{
+    width: 20%;
+}
+.messageDiv .inputDiv input,
+.messageDiv .inputDiv textarea{
+    padding: 5px 15px;
+}
+.messageDiv .inputDiv input:focus{
+    border: 1px solid;
+}
+.messageDiv .textAreaDiv{
+    display: block;
+}
+.messageDiv .textAreaDiv label,
+.messageDiv .textAreaDiv textarea{
+    width: 100%;
+}
+.messageDiv .btnDiv{
+    text-align: center;
+}
+.messageDiv .btnDiv button{
+    background-color: #0E0D6B !important;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
+@media screen and (max-width: 1200px) {
+    .commonDiv span{
+        margin: 0px;
+    }
+    #findJobSection .multiDiv select{
+        margin: 5px 0px !important;
+        padding: 5px 50px 10px 6px !important;
+    }
+    #findJobSection .forumtopButton .topbtnchild2{
+        margin-left: 59%;
+    }
+    .tableContent p {
+        font-size: 15px;
+    }
+    #contactDiv form .notice,
+    #contactDiv form .multiBtn {
+        margin-left: auto;
+    }
+    
+    #voice-Over .commonDiv form .inputDiv{
+
+    }
+    #voice-Over .commonDiv form .inputDiv select{
+        padding: 5px 40px 5px 5px;
+    }
+    #voice-Over .commonDiv .btn-primary{
+        background: #ff0202;
+        border: none;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 992px) {
+    #homeBanner .lookingFor, 
+    #contactDiv .lookingFor,
+    #postJobDiv .lookingFor {
+        background: #FCFCFC !important;
+        box-shadow: 0px 0px 9px rgb(0 0 0 / 25%) !important;
+        border-radius: 10px !important;
+        width: 255px !important;
+        height: 380px !important;
+    }
+    #postJobDiv .rightDiv{
+        margin: 30px 0px;
+    }
+    #postJobDiv .inputDiv{
+        justify-content: space-between;
+    }
+    #postJobDiv .multiple-select span{
+        display: none;
+    }
+    #postJobDiv .multiple-select select{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    #postJobDiv .multiple-select select .commonBtn{
+        width: 100%;
+    }
+    #findJobSection .googleAdd{
+        height: 350px;
+    }
+    .commonDiv span{
+        width: 100%;
+        margin: 10px 0px;
+        font-weight: 600;
+    }
+    
+    .companyOverview .totalTranslate img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .companyOverview .totalTranslate .translateContent{
+        padding-left: 15px !important;
+    }
+    .companyOverview .totalTranslate .translateContent h2{
+        font-size: 18px;
+    }
+    #findJobSection .forumtopButton .topbtnchild2{
+        margin-left: 50%;
+    }
+    .tableContent p {
+        font-size: 15px;
+    }
+    #contactDiv form .notice,
+    #contactDiv form .multiBtn {
+        margin-left: auto;
+    }
+    #voice-Over .commonDiv form .inputDiv{
+
+    }
+    #voice-Over .commonDiv form .inputDiv select{
+        padding: 5px 40px 5px 5px;
+    
+    }
+    #voice-Over .commonDiv .btn-primary{
+        background: #ff0202;
+        border: none;
+        color: #fff;
+    }
+    #voice-Over .commonDiv .primaryparent{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mainHeading{
+        font-size: 14px !important;
+    }
+    #homeBanner .lookingFor{
+        margin: auto !important;
+    }
+    #profile .inputDiv .inputSpan{
+        margin-left: 10px;
+    }
+    #profile form .warningText, .warningself{
+        font-size: 10px !important;
+    }
+    .commonDiv{
+        padding: 50px 20px;
+    }
+    #findJobSection .multiCards .cardDiv .locationDate button{
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+    #findJobSection .multiCards .cardDiv .locationDate i{
+        right: 25% !important;
+        font-size: 14px;
+    }
+    #findJobSection .multiCards .detial p{
+        font-size: 12px;
+    }
+    #findJobSection form{
+        display: block;
+    }
+    #findJobSection form select{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #findJobSection .formDiv .commonBtn{
+        width: 100%;
+    }
+    .companyOverview .totalTranslate .translateContent {
+        padding-left: 5px !important;
+    }
+    #findJobSection .multiCards .cardDiv .locationDate .detial p{
+        margin-right: 15px;
+    }
+    #findJobSection .multiCards .cardDiv .locationDate i{
+        right: 38%;
+    }
+    .companyOverview .totalTranslate .translateContent h2 {
+        font-size: 14px;
+    }
+    .companyOverview .totalTranslate .translateContent p{
+        font-size: 12px !important;
+        margin-bottom: 0px;
+    }
+    .companyOverview .totalTranslate img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .banner .banner-content h2{
+        font-size: 14px;
+    }
+    .banner .banner-content h2 br,
+    .banner .banner-content h1 br{
+        display: none;
+    }
+    .banner .banner-content h1{
+        font-size: 30px;
+    }
+    .banner .banner-content h2{
+        text-align: center;
+    }
+    #findJobSection .forumtopButton .topbtnchild2{
+        margin-left: 34%;
+    }
+    .tableContent p {
+        font-size: 15px;
+    }
+    #contactDiv form .notice,
+    #contactDiv form .multiBtn {
+        margin-left: auto;
+    }
+    #voice-Over .commonDiv form .inputDiv{
+
+    }
+    #voice-Over .commonDiv form .inputDiv select{
+        padding: 5px 40px 5px 5px;
+    
+    }
+    #voice-Over .commonDiv .btn-primary{
+        background: #ff0202;
+        border: none;
+        color: #fff;
+
+    }
+    #voice-Over .commonDiv .primaryparent{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .tableContent h2{
+        font-size: 10px;
+    }
+    .spann p{
+        padding-right: 5px;
+        line-height: 10px;
+    }
+    #findJobSection .multiCards .cardDiv .locationDate button{
+        padding: 5px;
+    }
+    #findJobSection .multiCards .cardDiv .locationDate .detial p{
+        margin-right: 5px;
+    }
+    .companyOverview .totalTranslate .translateContent h2 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .companyOverview .totalTranslate img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .companyOverview .totalTranslate .translateContent p {
+        font-size: 10px !important;
+        margin-bottom: 0px;
+    }
+    .companyOverview .row{
+        padding: 10px !important;
+    }
+    .banner .banner-content .inputfield .Categories{
+        width: 100%;
+    }
+    .inputfield .select{
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .banner .banner-content p{
+        display: inline-grid;
+    }
+    .banner .banner-content .language p span{
+        margin: 5px 0px;
+    }
+    .banner .banner-content .inputfield{
+        display: block;
+    }
+    #findJobSection .forumtopButton .topbtnchild2{
+        margin-left: 17%;
+    }
+    .tableContent p {
+        font-size: 8px;
+    }
+    #contactDiv form .notice,
+    #contactDiv form .multiBtn{
+        margin-left: 0px;
+    }
+    #contactDiv form .inputDiv {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    #mainBanner .registerDiv p{
+        font-size: 18px !important;
+    }
+    #createAccount .formDiv h2{
+        left: 15px;
+    }
+    #createAccount .formDiv{
+        padding: 50px 20px !important;
+    }
+    #createAccount .formDiv .checkBoxDiv{
+        max-width: 100%;
+    }
+    #homeBanner .lookingFor, #contactDiv .lookingFor, #postJobDiv .lookingFor {
+    background: #FCFCFC;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 25%) !important;
+    border-radius: 10px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 40px !important;
+    width: 308px !important;
+    height: 442px !important;
+
+    }
+    #homeBanner .lookingFor p.header, #contactDiv .lookingFor p.header, #postJobDiv .lookingFor p.header {
+        background: #e62e2d;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 78px;
+        border-radius: 10px 10px 0px 0px;
+        font-weight: 500;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin: auto;
+    }
+    #voice-Over .commonDiv form .inputDiv{
+
+    }
+    #voice-Over .commonDiv form .inputDiv label{
+        padding: 5px 27px 5px 10px;
+    }
+    #voice-Over .commonDiv .btn-primary{
+        background: #ff0202;
+        border: none;
+        color: #fff;
+      
+
+    }
+    #voice-Over .commonDiv .primaryparent{
+        padding-top: 20px;
+    }
+}
+
+
+/* ******************agency******************** */
+
+
+.tablehead{
+    background: #C4C4C4;
+    font-family: Montserrat;
+    border: none;
+    color: #000;
+}
+
+.checkbox input{
+    font-family: Montserrat;
+    margin: 2px;
+    margin-top: 60px;
+}
+.companyimg h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.companyimg img{
+    background: grey;
+    justify-content: center;
+    font-family: Montserrat;
+}
+.location{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+.date{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+.tablebackground{
+      background: #F2F2F2;
+      font-family: Montserrat;
+}
+
+
+.googleAds{
+    font-family: Montserrat;
+    background: #eeeeee;
+    width: 100%;
+    height: 100vh;
+}
+.googleAds h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    word-spacing: 19px;
+    padding-top: 100%;
+    text-align: center;
+} 
+
+/* &&*(*********************************** */
+
+  .orderdisplaying  p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 34px;
+    color: #000000;
+} 
+.orderdisplaying .agencies{
+    background: #F2F2F2;
+    font-family: Montserrat;
+}
+.form-btn{
+    text-align: center;
+    font-family: Montserrat;
+    border: none;
+}
+.agenciesBtn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    line-height: 24px;
+    background: #FF0202;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 25px;
+}
+
+.lastrow{
+    background-color:#FAFAFA;
+    width: 100%;
+    font-family: Montserrat;
+    height: 55px;
+}
+.rowcontent{
+    padding-top: 20px;
+    font-family: Montserrat;
+}
+
+.form-Bttn{
+    margin-left: 100px;
+    text-align: end;
+    padding-top: 7px;
+    font-family: Montserrat;
+}
+.agenciesBtnn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 260px;
+    border: none;
+    background: #FF0202;
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: #fff;
+  
+}
+
+/* ---------------------- Company Overview start------------------------ */
+
+
+
+.companyOverview{
+    margin-top: -65px;
+    font-family: Montserrat;
+}
+.companyOverview .row{
+    background: #FF0202;
+    box-shadow: 1px 1px 25px 4px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    font-family: Montserrat;
+}
+.companyOverview .totalTranslate{
+    display: flex;
+    font-family: Montserrat;
+
+}
+.companyOverview .totalTranslate img{
+    width: 65px;
+    font-family: Montserrat;
+    height: 66px;
+}
+
+.companyOverview .totalTranslate .translateContent {
+    color: #fff;
+    padding-left: 25px;
+    font-family: Montserrat;
+
+}
+
+/* ---------------------- Company Overview end------------------------ */
+/* ---------------------- Lastest Jobs start------------------------ */
+
+
+.lastestJobs .row{
+    padding-top: 50px;
+}
+.lastestJobs .heading{
+    color:#383687;
+    font-size: 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+#select-category{
+    position: absolute;
+    width: 260px;
+    height: 43px;
+    font-family: Montserrat;
+    border: none;
+    background: #ECECEC;
+    border-radius: 10px;
+}
+.lastestjobBtn .btn{
+    position: relative;
+    width: 149px;
+    height: 43px;
+    font-family: Montserrat;
+    background: #FF0202;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+}
+/* -------------- */
+.lastestjobs-italain{
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    background: #F9F9F9;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+.lastestJobs span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #272727;
+    float: right;
+    padding: 0px 40px 0px 0px;
+}
+#italinh{
+    padding: 30px 0px 0 30px;
+    color: #272727;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#italinp{
+    padding: 0px 0px 0 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.Clients{
+    background: #F9F9F9;
+   margin-left: 20px;
+   font-family: Montserrat;
+}
+
+.Clients p {
+    font-size: 14px;
+    background: #383687;
+    border-radius: 15px 15px 0px 0px;
+    color: #fff;
+    padding: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.list{
+    padding: 10px;
+    font-family: Montserrat;
+}
+.list li{
+    font-style: normal;
+    text-transform: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+.list ul li {
+    padding: 10px 0px;
+    border-bottom: 1px solid #9F9F9F;
+    font-family: Montserrat;
+}
+
+.pososals{
+    padding: 0px 0px 0 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.pososalnum {
+    padding-left: 25px;
+    font-family: Montserrat;
+ }
+ .location{
+    padding: 0px 0px 0px 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.Expiry{
+    padding: 0px 0px 0px 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+.icon{
+    padding: 25px 0px 0px 160px;
+    font-family: Montserrat;
+}
+.Expiry .btnn{
+    padding: 22px 0px 0pc 16px;
+    font-family: Montserrat;
+}
+.click{
+    border-radius: 10px;
+    font-family: Montserrat;
+    padding: 0px 15px;
+    background: #54B848;
+    border: none;
+    color: #fff;
+}
+
+.LastBtn{
+    padding-top: 30ppx;
+    font-family: Montserrat;
+}
+.moreJobsbtn{
+    padding: 10px 20px;
+    font-size: 22px;
+    font-family: Montserrat;
+    background: #0e0d6b;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.LastBtn{
+    padding-top: 35px;
+    font-family: Montserrat;
+}
+.moreJobbtn{
+    background: #0e0d6b;
+    padding: 8px 23px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 19px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* ---------------------- Lastest Jobs end------------------------ */
+/* ---------------------- Center Banner start------------------------ */
+
+
+/*  */
+.centerBanner{
+    background-image: url('/WeTranslate/assets/img/Home\ Background.png');
+    position: relative;
+    min-height: 10vh;
+    font-family: Montserrat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 120px;
+}
+
+.centerBanner h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #e62e2d;
+    text-align: center;
+}
+
+.centerBanner h2{
+    margin: 0px;
+    padding: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+.centerBanner p{
+    margin:1em 0 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-parent{
+    justify-content: center;
+    font-family: Montserrat;
+    padding-top: 20px;
+}
+.centerbannerbtn1{
+    padding-right: 31px;
+    font-family: Montserrat;
+}
+
+
+.btnD1{
+    background: black;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.btnD1:hover{
+    text-decoration: none;
+    font-style: normal;
+    color: #fff;
+    font-family: Montserrat;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btnD2{
+    background: rgba(255, 2, 2, 1);
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    font-weight: 600;
+    font-family: Montserrat;
+    border-radius: 10px;
+    font-size: 18px;    
+    cursor: pointer;
+}
+.btnD2:hover{
+    text-decoration: none;
+    font-style: normal;
+    font-family: Montserrat;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* ---------------------- Center Banner end------------------------ */
+/* ------------------------how its work style start------------------ */
+
+.mainpart{
+    padding-top: 25px;
+    justify-content: flex-end;
+    font-family: Montserrat;
+}
+
+.Services .heading {
+    color: #0E0D6B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 70px;
+    padding-top: 15px;
+}
+.mainpart2{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
+    font-family: Montserrat;
+}
+.Services .heading1{
+    padding-right: 15px;
+    color:#FF0202;
+    font-family: Montserrat;
+}
+.heading2{
+    padding-left: 15px;
+    font-family: Montserrat;
+}
+
+
+.Services .header2{
+padding-left: 10px;
+font-family: Montserrat;
+
+}
+
+/* ------------------------how its work style end------------------ */
+
+.servicesContent h2,
+.servicesContent h2 a{
+    padding: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+}
+.servicesContent p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+}
+
+/***************** About Us - CSS ******************/
+
+
+#our-mission {
+    width: 100%;
+    display: flex;
+}
+#our-mission .left-div {
+    width:100%;
+    padding: 100px 0px 0px 0px;
+    text-align: start;
+}
+#how-to-find .content-div h2,
+#how-to-find .form-div h2, #our-mission h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#our-mission .invest-principle {
+    margin: 30px 0px;
+}
+#our-mission .invest-principle h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#how-to-find .content-div p, #our-mission .invest-principle p {
+    font-size: 16px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+#our-mission .right-div {
+    width: 100%;
+    background-image: url('/assets/img/profileBanner.png');
+    padding: 100px 0 0px 0px;
+    text-align: start;
+}
+#our-mission .right-div h2 {
+    font-weight: 600;
+    color: #212529;
+}
+#our-mission .right-div .why-choose h4 {
+    font-size: 20px;
+    color: #212529;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#our-mission .right-div .why-choose p {
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #212529;
+    font-weight: 500;
+}
+#our-mission .right-div .why-choose ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#our-mission .right-div .why-choose ul li {
+    font-size: 13px;
+    color: #212529;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+#our-mission .right-div .why-choose ul li::before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    margin-right: 15px;
+    color: #2e953e;
+}
+#our-mission .right-div button {
+    margin: 20px 0px;
+    width: 100%;
+    max-width: 50%;
+    font-size: 17px;
+    max-width: 100%;
+}
+#our-mission .right-div button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #504e99;
+    color: #fff;
+    
+}
+#our-mission .right-div button a {
+    color: #fff;
+}
+
+.aboutusBtn button {
+    width: 100%;
+    max-width: 80%;
+    background: #514f9a;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+
+}
+/***************** Privacy - Policy - CSS ******************/
+
+#informationCollected .bs-callout {
+    margin: 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #eee;
+    text-align: justify;
+} 
+#informationCollected .bs-callout h4 {
+    margin-top: 0;
+    text-align: justify;
+}
+#informationCollected p {
+    margin: 0 0 10px;
+    text-align: justify;
+}
+#informationCollected .bs-callout p:last-child {
+    margin-bottom: 0;
+    text-align: justify;
+
+}
+
+/***************** Term and Conditiony - CSS ******************/
+
+#term-condition .introduction h3{
+    color: #212529;
+    font-size: 30px;
+    font-weight: 600;
+}
+#term-condition .introduction p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+}
+/***************** How its Works CSS ******************/
+
+#howWorks {
+   margin-top: 5%;
+}
+#howWorks .left-img{
+    margin-top: 5%;
+}
+#howWorks .right-text{
+    margin-top: 5%;
+}
+#howWorks .right-text h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#howWorks .right-text .dummy p{
+    font-size: 16px;
+    color: #7f7f7f;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+#howWorks .right-text a{
+    margin-top: 20px;
+    background: #fff;
+    color: #504d97;
+    padding: 10px 0 10px 20px;
+    border: 1px solid #504d97;
+    font-size: 18px;
+    font-weight: 500;
+    width: 35%;
+}
+#howWorks .right-text a:hover{
+    margin-top: 20px;
+    background: #504d97;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    width: 35%;
+}
+#howWorks .left-img img{
+    max-width: 80%;
+    margin: 57px 0px 35px 1px;
+}
+.checkBox-Div label{
+    font-size: 14px;
+}
+.checkBox-Div{
+    display: flex;
+}
+.checkBox-Div input {
+    margin-right: 20px;
+    margin-top: 4px;
+}
+#software .inputDiv{
+    max-width: 100% !important;
+    display: block !important;
+    margin-bottom: 0px !important;
+}
+#software .inputDiv textarea{
+    width: 100%;
+    background: #F3F3F3;
+    border: 1.5px solid #0000002b;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+#files table{
+    width: 100%;
+}
+#files table th,
+#files table td{
+    padding: 10px;
+}
+#files table td .checkBoxDiv{
+    display: flex;
+}
+#files table td .checkBoxDiv input{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+#files table td .checkBoxDiv p{
+    margin-bottom: 0px;
+}
+.deleteSelected{
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    background: #0e0d6b;
+    color: #fff;
+    border-radius: 5px;
+}
+#files input,
+#files textarea,
+#files select{
+    width: 100% !important;
+    background: #F3F3F3 !important;
+    border: 1.5px solid #0000002b !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    padding: 5px 15px !important;
+    max-width: 100% !important;
+}
+#files .inputDiv,
+#files .inputSpan{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.box{
+    border: 2px solid #D0CECE;
+    padding: 20px;
+    border-radius: 8px;
+}
+#service select{
+    margin: 0px 20px;
+    padding: 10px;
+}
+.serviceTable,
+.voiceOverTable{
+    width: 100% !important;
+    display: inline-table !important;
+}
+.serviceTable tr td,
+.voiceOverTable tr td,
+.voiceOverTable tr th{
+    padding: 10px;
+}
+.serviceTable tr td:nth-child(1){
+    width: 85%;
+}
+#voice-Over select{
+    padding: 10px 50px;
+    margin-right: 30px;
+}
+.voiceOverTable{
+    margin: 30px 0px;
+}
+.mainHeading{
+    font-weight: 700 !important;
+    font-size: 22px;
+    background: #0e0d6b;
+    padding: 5px;
+    color: #fff;
+}
+#profile button{
+    width: 100%;
+    padding: 5px;
+    border: 1.5px solid #0000002b;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#profile .box p{
+    margin-bottom: 0px;
+}
+#profile .multipleItem{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#profile .multipleItem button{
+    width: auto;
+}
+#profile .multipleItem button,
+#profile .multipleItem label,
+#profile .multipleItem select{
+    margin: 0px 10px;
+}
+.privacy-box h4{
+    margin: 0px !important;
+    font-size: 18px;
+}
+.important-note{
+    background: #0e0d6b38;
+    border: 1px solid #0e0d6b;
+    padding: 10px;
+    border-radius: 5px;
+}
+.userInfo h4{
+    margin: 0px !important;
+}
+.activityStatusTable{
+    width: 100%;
+}
+.activityStatusTable th{
+    padding: 10px;
+}
+.favoriteIcon{
+    cursor: pointer;
+}
